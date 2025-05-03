@@ -5,7 +5,6 @@ const Blog = () => {
     <>
     <div className='letras'>
         <h2>Description of what is done here</h2>
-        
     </div>
     
     </>
