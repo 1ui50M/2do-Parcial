@@ -1,11 +1,19 @@
-import Card from "@/components/About";
-import Image from "next/image";
-import Link from "next/link";
+import Home from '@/Home/Home'
+import React from 'react'
+import Header from '@/Header/Header'
+import About from '@/About/About'
+import Dashboard from '@/Dashboard/Dashboard'
 
-export default function Home() {
+
+const page = () => {
   return (
     <>
     <Home/>
+    <Header/>
+    <About/>
+    <Dashboard/>
     </>
-  );
+  )
 }
+
+export default page
