@@ -1,46 +1,4 @@
-.rectangulo{
-  background-color:  #EB5757;
-  width: 364px;
-  height: 67px;
-  display: flex;
-  font-size: 16px;
-  align-items: center;
-  justify-content: flex-start
-}
 body{
   display: flex;
-  height: 100vh;
-  align-items: flex-start;
-  height: 100vh;
-  justify-content: center;
-}
-.contenido{
-  height: 162px;
-  width: 364px;
-  background-color: white;
-}
-.Frame-image{
-  height: 30px;
-  width: 30px;
-}
-.uno{
-  font-size: 16px;
-  color: white;
-  border-radius: 30%;
-  border-color: white;
-  border-width: 2px;
-
-}
-.texto{
-  font-size: 16px;
-  color: white;
-}
-.letras{
-  font-size: 16px;
-}
-.prim{
-  line-height: 100%;
-}
-.seg{
-  line-height: 100%;
+  flex-direction: column;
 }
