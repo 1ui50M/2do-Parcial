@@ -1,10 +1,11 @@
-import Card from "@/components/Card";
+import Card from "@/components/About";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-    <Card/>
+    <Home/>
     </>
   );
 }
